@@ -6,9 +6,19 @@ public class Main {
 	//
         String s ="1234567898765431";
         String s1;
-        System.out.println(s.length());
+
         for(int i = 0; i<s.length()-1;i++){
-            ;
+            if(i%4==0){
+                System.out.print(s.charAt(i)+",");
+            }
+
+        }
+        System.out.println();
+        for(int i = 0; i<s.length()-1;i++){
+            if(i%4!=0){
+                System.out.print(s.charAt(i)+",");
+            }
+
         }
     }
 }
