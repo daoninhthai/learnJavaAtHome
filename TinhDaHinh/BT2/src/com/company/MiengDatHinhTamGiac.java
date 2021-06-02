@@ -45,7 +45,7 @@ public class MiengDatHinhTamGiac extends MiengDat {
     }
     @Override
     public double tinhTien(){
-        return this.donGia*this.tinhDienTich()*0.9;
+        return this.donGia*(long) this.tinhDienTich()*0.9;
 
     }
 

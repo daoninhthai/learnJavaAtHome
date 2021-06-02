@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class MiengDat {
     private String maSo;
-    protected double donGia;
+    protected long donGia =25000000;
     Scanner sc = new Scanner(System.in);
-    public MiengDat(String maSo, double donGia) {
+    public MiengDat(String maSo, long donGia) {
         this.maSo = maSo;
         this.donGia = donGia;
     }
@@ -23,11 +23,11 @@ public class MiengDat {
         this.maSo = maSo;
     }
 
-    public double getDonGia() {
+    public long getDonGia() {
         return donGia;
     }
 
-    public void setDonGia(double donGia) {
+    public void setDonGia(long donGia) {
         this.donGia = donGia;
     }
     public double tinhDienTich(){
